@@ -1,5 +1,8 @@
 name: Test CI
 on: push
+env:
+  API_URL: "https://example.com"
+  MODE: "development"
 jobs:
   check:
     runs-on: ubuntu-latest
