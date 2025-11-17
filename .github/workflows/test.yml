@@ -7,4 +7,4 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - run: echo NODE_ENV
+      - run: echo "$NODE_ENV"
